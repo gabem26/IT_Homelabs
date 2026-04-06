@@ -20,9 +20,8 @@ Automates the offboarding process for terminated employees by disabling their AD
 ## CSV Format
 ```csv
 SamAccountName
-user1
-user2
-....
+jsmith
+....and so on
 ```
 
 ## How to Use
