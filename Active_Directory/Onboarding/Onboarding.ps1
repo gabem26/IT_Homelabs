@@ -24,11 +24,11 @@ $LogPath    = "C:\Scripts\Onboarding\onboarding_log.txt"
 #Logging func -- log to file and print to screen as well -- auditing purposes
 Function Write-Log 
 {
-    Param([string]$Message)
+    Param([string]$Message) #the message goes into here as the param when Write-Log is used
     $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    $Entry     = "$Timestamp - $Message"
-    Write-Host $Entry
-    Add-Content -Path $LogPath -Value $Entry
+    $Entry     = "$Timestamp - $Message" #the entry that will print out to the console and the log file
+    Write-Host $Entry #writes the Entry to the console
+    Add-Content -Path $LogPath -Value $Entry #adds the Entry to the log file
 }
 
 #Import CSV
@@ -52,7 +52,7 @@ ForEach ($User in $NewHires)
     #get manager object
     $ManagerName = $User.Manager
     #pulling User.Manager into its own plain var before passing it into the filter block
-    $Manager = Get-ADUser -Filter {SamAccountName -eq $ManagerName} -ErrorAction SilentlyContinue
+    $Manager = Get-ADUser -Filter {SamAccountName -eq $ManagerName} -ErrorAction SilentlyContinue #in this case all SAMAccountNames will be Admin
     #create AD acc
     Try {
         $UserParams = @{
@@ -68,7 +68,7 @@ ForEach ($User in $NewHires)
             Path              = $NewHiresOU
             AccountPassword   = $Password
             Enabled           = $true
-            ChangePasswordAtLogon = $true
+            ChangePasswordAtLogon = $true #employee must change password at logon
             PasswordNeverExpires = $false 
         }
         New-ADUser @UserParams
