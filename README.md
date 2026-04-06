@@ -20,4 +20,4 @@ Hands on practice with Active directory/Azure, DHCP, PowerShell, Troubleshooting
 - Active Directory user and group management
 - CSV-driven workflows simulating HR data feeds
 - Audit logging and error handling
-- IT identity lifecycle management
+- Identity lifecycle management (Onboard and Offboard in this case)
