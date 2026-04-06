@@ -1,0 +1,19 @@
+2026-04-05 21:25:20 - Starting onboarding run. 5 user(s) found in CSV.
+2026-04-05 21:25:20 - CREATED - jsmith (John Smith)
+2026-04-05 21:25:20 - Group - jsmith added to IT group.
+2026-04-05 21:25:20 - CREATED - jdoe (Jane Doe)
+2026-04-05 21:25:20 - Group - jdoe added to HR group.
+2026-04-05 21:25:20 - CREATED - mjohnson (Mike Johnson)
+2026-04-05 21:25:20 - Group - mjohnson added to Finance group.
+2026-04-05 21:25:20 - CREATED - swilliams (Sarah Williams)
+2026-04-05 21:25:20 - Group - swilliams added to IT group.
+2026-04-05 21:25:21 - CREATED - lbrown (Lisa Brown)
+2026-04-05 21:25:21 - Group - lbrown added to HR group.
+2026-04-05 21:25:21 - Onboarding run complete.
+2026-04-05 21:41:31 - Starting onboarding run. 5 user(s) found in CSV.
+2026-04-05 21:41:31 - Skipped - jsmith already exists in AD.
+2026-04-05 21:41:31 - Skipped - jdoe already exists in AD.
+2026-04-05 21:41:31 - Skipped - mjohnson already exists in AD.
+2026-04-05 21:41:31 - Skipped - swilliams already exists in AD.
+2026-04-05 21:41:31 - Skipped - lbrown already exists in AD.
+2026-04-05 21:41:31 - Onboarding run complete.
