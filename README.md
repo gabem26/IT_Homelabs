@@ -3,7 +3,7 @@ Hands on practice with Active Directory/Azure, DHCP, PowerShell, Linux and most 
 
 ## Lab Environment
 - **Hypervisor:** VirtualBox
-- **Domain Controller:** Windows Server 2025 — LAB.local
+- **Domain Controller:** Windows Server 2022 — LAB.local
 - **Client Machine:** Windows 11
 - **Domain:** LAB.local
 
