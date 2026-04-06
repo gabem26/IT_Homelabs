@@ -1,0 +1,12 @@
+2026-04-06 13:13:51 - Starting offboarding run. 2 user(s) found in CSV.
+2026-04-06 13:13:51 - Skipped - jsmith not found in AD.
+2026-04-06 13:13:51 - Skipped - gmarrero not found in AD.
+2026-04-06 13:13:51 - Offboarding run complete.
+2026-04-06 13:14:54 - Starting offboarding run. 2 user(s) found in CSV.
+2026-04-06 13:14:54 - Disabled - jsmith
+2026-04-06 13:14:55 - Group Removed - jsmith removed from CN=IT,OU=LAB Groups,DC=LAB,DC=local.
+2026-04-06 13:14:55 - Moved - jsmith moved to Disabled Users OU.
+2026-04-06 13:14:55 - Disabled - gmarrero
+2026-04-06 13:14:55 - Group Removed - gmarrero removed from CN=Finance,OU=LAB Groups,DC=LAB,DC=local.
+2026-04-06 13:14:55 - Moved - gmarrero moved to Disabled Users OU.
+2026-04-06 13:14:55 - Offboarding run complete.
