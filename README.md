@@ -15,9 +15,20 @@ Hands on practice with Active Directory/Azure, DHCP, PowerShell, and most import
 | [Onboarding](./Active_Directory/Onboarding/) | Automated AD user creation from CSV | PowerShell, AD DS, Group Management |
 | [Offboarding](./Active_Directory/Offboarding/) | Automated account disabling and cleanup | PowerShell, AD DS, OU Management |
 
+### Networking / Infra
+
+| Project | Description | Skills Demonstrated |
+|---|---|---|
+| [DHCOServerLab](./Active_Directory/DHCPServerConfig/) | Deployed and configured Windows Server 2022 DHCP in an AD environment with multiple scopes, exclusions, reservations, and client lease validation | DHCP configuration, IP addressing & subnetting, scope design, reservations & exclusions, DNS integration |
+
+
 ## Skills Demonstrated
 - PowerShell scripting and automation
 - Active Directory user and group management (all done via PS)
 - CSV-driven workflows simulating HR data feeds
 - Audit logging and error handling (Try/Catch/Log)
 - Identity lifecycle management (Onboard and Offboard in this case)
+- DHCP server deployment and administration in Active Directory
+- IP addressing, subnetting, and scope design
+- Network services integration (DHCP, DNS)
+- Endpoint lease testing
