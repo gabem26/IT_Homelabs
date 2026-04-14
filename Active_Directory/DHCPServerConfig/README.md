@@ -10,7 +10,7 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 * Adjusts lease durations based on device type and network segment
 * Creates a DHCP reservation for a domain-joined client by MAC address
 * Enables conflict detection to prevent duplicate IP assignments
-* Verifies end-to-end lease delivery using a live Windows 11 client
+* Verifies end-to-end lease delivery using a live Windows 11 client (renew/release)
  
 ## Lab Environment
  
@@ -30,22 +30,26 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 - Range: 192.168.1.10 – 192.168.1.200
 - Exclusion: 192.168.1.10 – 192.168.1.20 (printers, APs, static infrastructure)
 - Options: Gateway 192.168.1.254 \| DNS 192.168.56.10 \| Domain LAB.local
+- Lease Duration: 8 hours
  
 **Corporate Voice — 192.168.2.0/24**
 - Range: 192.168.2.10 – 192.168.2.150
 - Exclusion: 192.168.2.10 – 192.168.2.30 (voice gateways, call managers)
 - Options: Gateway 192.168.2.254 \| DNS 192.168.56.10 \| Domain LAB.local
+- Lease Duration: 1 day
  
 **Guest Wi-Fi — 192.168.3.0/24**
 - Range: 192.168.3.50 – 192.168.3.250
 - Exclusion: 192.168.3.50 – 192.168.3.60 (wireless controllers, captive portal appliances)
 - Options: Gateway 192.168.3.254 \| DNS 192.168.56.10 \| Domain LAB.local
+- Lease Duration: 2 hours
  
 **Lab Network — 192.168.56.0/24**
 - Range: 192.168.56.50 – 192.168.56.200
 - Exclusion: 192.168.56.50 – 192.168.56.60
 - Reservation: finance_intern1 → 192.168.56.100 (MAC: 08-00-27-86-3C-1F in my case)
 - Options: Gateway 192.168.56.1 \| DNS 192.168.56.10 \| Domain LAB.local
+- Lease Duration: 8 hours
 
 **Note:** In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary
 
