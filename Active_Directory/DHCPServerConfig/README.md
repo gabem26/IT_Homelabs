@@ -58,4 +58,4 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 * Windows Server with Active Directory Domain Services
 * DHCP Server role installed and authorized in AD
 * Static IP configured on the domain controller before DHCP role installation
-* VirtualBox built-in DHCP disabled if using a Host-Only or Internal network adapter
+* VirtualBox built-in DHCP disabled if using a Host-Only network adapter
