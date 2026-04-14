@@ -21,4 +21,4 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 | Client Machine | Windows 11 — finance_user1 |
 | Domain | LAB.local |
 | DC Static IP | 192.168.56.10 |
-| Network Type | VirtualBox Host-Only Ethernet Adapter -- Adapter 1 | NAT -- Adapter 2 |
+| Network Type | VirtualBox Host-Only Ethernet Adapter -- Adapter 1  & NAT -- Adapter 2 |
