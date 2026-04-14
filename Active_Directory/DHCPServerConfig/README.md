@@ -47,7 +47,7 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 - Reservation: finance_user1 → 192.168.56.100 (MAC: 08-00-27-86-3C-1F)
 - Options: Gateway 192.168.56.1 \| DNS 192.168.56.10 \| Domain LAB.local
 
-*Note: In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary
+**Note:** In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary
 
 ## Requirements
  
