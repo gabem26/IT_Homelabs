@@ -51,7 +51,7 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 - Options: Gateway 192.168.56.1 \| DNS 192.168.56.10 \| Domain LAB.local
 - Lease Duration: 8 hours (matches a standard workday) 
 
-**Note:** In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary. Also the goal with lease durations in this case is to tailor per subnet to reflect device behavior and optimize IP address utlilization. 
+**Note:** In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary. Moreover, the goal with lease durations in this case is to tailor per subnet to reflect device behavior and optimize IP address utlilization. 
 
 ## Requirements
  
