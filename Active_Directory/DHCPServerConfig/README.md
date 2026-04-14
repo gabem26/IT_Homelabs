@@ -30,28 +30,28 @@ Deploys and configures a Windows Server 2022 DHCP server in an Active Directory 
 - Range: 192.168.1.10 – 192.168.1.200
 - Exclusion: 192.168.1.10 – 192.168.1.20 (printers, APs, static infrastructure)
 - Options: Gateway 192.168.1.254 \| DNS 192.168.56.10 \| Domain LAB.local
-- Lease Duration: 8 hours
+- Lease Duration: 8 hours (matches a standard workday 8-16) -- user will come in, connect, work, leave and lease will naturally expire. This can prevent IP exhaustion.
  
 **Corporate Voice — 192.168.2.0/24**
 - Range: 192.168.2.10 – 192.168.2.150
 - Exclusion: 192.168.2.10 – 192.168.2.30 (voice gateways, call managers)
 - Options: Gateway 192.168.2.254 \| DNS 192.168.56.10 \| Domain LAB.local
-- Lease Duration: 1 day
+- Lease Duration: 1 day -- voice devices are static-ish because they dont move or disconnect often. We want stability to prevent call interruptions. 
  
 **Guest Wi-Fi — 192.168.3.0/24**
 - Range: 192.168.3.50 – 192.168.3.250
 - Exclusion: 192.168.3.50 – 192.168.3.60 (wireless controllers, captive portal appliances)
 - Options: Gateway 192.168.3.254 \| DNS 192.168.56.10 \| Domain LAB.local
-- Lease Duration: 2 hours
+- Lease Duration: 2 hours -- guests connect briefly, devices come and go. We want IPs to recycle quickly to prevent IP pool exhuastion/connectivity issues
  
 **Lab Network — 192.168.56.0/24**
 - Range: 192.168.56.50 – 192.168.56.200
 - Exclusion: 192.168.56.50 – 192.168.56.60
 - Reservation: finance_intern1 → 192.168.56.100 (MAC: 08-00-27-86-3C-1F in my case)
 - Options: Gateway 192.168.56.1 \| DNS 192.168.56.10 \| Domain LAB.local
-- Lease Duration: 8 hours
+- Lease Duration: 8 hours (matches a standard workday) 
 
-**Note:** In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary
+**Note:** In a prod env, the Users LAN, Corporate Voice, and Guest Wi-Fi scopes would receive relayed DHCP requests via `ip helper-address` configured on Layer 3 switches or routers at each subnet boundary. Also the goal with lease durations in this case is to tailor per subnet to reflect device behavior and optimize IP address utlilization. 
 
 ## Requirements
  
