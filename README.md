@@ -1,5 +1,5 @@
 # IT_Homelabs
-Hands on practice with Active Directory/Azure, DHCP, PowerShell, Linux and most importantly troubleshooting
+Hands on practice with Active Directory/Azure, DHCP, PowerShell, and most importantly troubleshooting
 
 ## Lab Environment
 - **Hypervisor:** VirtualBox
