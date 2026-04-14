@@ -13,7 +13,7 @@ Hands on practice with Active Directory/Azure, DHCP, PowerShell, and most import
 | Project | Description | Skills Demonstrated |
 |---|---|---|
 | [Onboarding](./Active_Directory/Onboarding/) | Automated AD user creation from CSV | PowerShell, AD user/group management (all done via PS), CSV-driven workflows simulating HR data feeds, Audit logging and error handling (Try/Catch/Log), Identity lifecycle management (Onboard and Offboard in this case) |
-| [Offboarding](./Active_Directory/Offboarding/) | Automated account disablement and cleanup| Same as above but offboard |
+| [Offboarding](./Active_Directory/Offboarding/) | Automated account disablement and cleanup | Same as above |
 
 ### Networking / Infra
 
