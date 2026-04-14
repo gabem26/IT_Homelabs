@@ -4,7 +4,7 @@ Hands on practice with Active Directory/Azure, DHCP, PowerShell, and most import
 ## Lab Environment
 - **Hypervisor:** VirtualBox
 - **Domain Controller:** Windows Server 2022 — LAB.local
-- **Client Machine:** Windows 11
+- **Client Machine:** Windows 11 Pro
 - **Domain:** LAB.local
 
 ## Projects
