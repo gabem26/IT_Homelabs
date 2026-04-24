@@ -1,0 +1,139 @@
+2026-04-22 20:50:06 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:50:06 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:50:07 - ERROR - Could not send email to jdoe. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:50:07 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:50:07 - ERROR - Could not send email to mjohnson. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:50:07 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:50:07 - ERROR - Could not send email to swilliams. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:50:07 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:50:07 - ERROR - Could not send email to lbrown. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:50:07 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:50:07 - ERROR - Could not send email to gmarrero. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:50:07 - Password expiry check complete.
+2026-04-22 20:51:00 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:51:00 - DEBUG - Token length: 32
+2026-04-22 20:51:00 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:01 - ERROR - Could not send email to jdoe. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:51:01 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:01 - ERROR - Could not send email to mjohnson. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:51:01 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:01 - ERROR - Could not send email to swilliams. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:51:01 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:01 - ERROR - Could not send email to lbrown. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:51:01 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:01 - ERROR - Could not send email to gmarrero. Reason: {"success":false,"errors":["Unauthorized"]}
+2026-04-22 20:51:01 - Password expiry check complete.
+2026-04-22 20:51:26 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:51:26 - DEBUG - Token length: 32
+2026-04-22 20:51:26 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:26 - ERROR - Could not send email to jdoe. Reason: 404 page not found
+2026-04-22 20:51:26 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:26 - ERROR - Could not send email to mjohnson. Reason: 404 page not found
+2026-04-22 20:51:26 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:26 - ERROR - Could not send email to swilliams. Reason: 404 page not found
+2026-04-22 20:51:26 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:26 - ERROR - Could not send email to lbrown. Reason: 404 page not found
+2026-04-22 20:51:26 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:51:26 - ERROR - Could not send email to gmarrero. Reason: 404 page not found
+2026-04-22 20:51:26 - Password expiry check complete.
+2026-04-22 20:52:18 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:52:18 - DEBUG - Token length: 32
+2026-04-22 20:52:18 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:52:18 - EMAIL SENT - Notified jdoe at jdoe@LAB.local.
+2026-04-22 20:52:20 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:52:20 - ERROR - Could not send email to mjohnson. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-22 20:52:20 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:52:20 - ERROR - Could not send email to swilliams. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-22 20:52:20 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:52:20 - ERROR - Could not send email to lbrown. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-22 20:52:20 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:52:20 - ERROR - Could not send email to gmarrero. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-22 20:52:20 - Password expiry check complete.
+2026-04-22 20:52:54 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:52:54 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:52:54 - EMAIL SENT - Notified jdoe at jdoe@LAB.local.
+2026-04-22 20:53:10 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:53:10 - EMAIL SENT - Notified mjohnson at mjohnson@LAB.local.
+2026-04-22 20:53:25 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:53:25 - EMAIL SENT - Notified swilliams at swilliams@LAB.local.
+2026-04-22 20:53:40 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:53:40 - EMAIL SENT - Notified lbrown at lbrown@LAB.local.
+2026-04-22 20:53:55 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:53:55 - EMAIL SENT - Notified gmarrero at gmarrero@LAB.local.
+2026-04-22 20:54:10 - Password expiry check complete.
+2026-04-22 20:56:02 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:56:02 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:56:02 - EMAIL SENT - Notified jdoe at jdoe@LAB.local.
+2026-04-22 20:56:17 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:56:17 - EMAIL SENT - Notified mjohnson at mjohnson@LAB.local.
+2026-04-22 20:56:32 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:56:33 - EMAIL SENT - Notified swilliams at swilliams@LAB.local.
+2026-04-22 20:56:48 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:56:48 - EMAIL SENT - Notified lbrown at lbrown@LAB.local.
+2026-04-22 20:57:03 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:57:03 - EMAIL SENT - Notified gmarrero at gmarrero@LAB.local.
+2026-04-22 20:57:18 - Password expiry check complete.
+2026-04-22 20:57:34 - Starting password expiry check, 5 user(s) found.
+2026-04-22 20:57:34 - EXPIRING - jdoe password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:57:34 - EMAIL SENT - Notified jdoe at jdoe@LAB.local.
+2026-04-22 20:57:49 - EXPIRING - mjohnson password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:57:49 - EMAIL SENT - Notified mjohnson at mjohnson@LAB.local.
+2026-04-22 20:58:04 - EXPIRING - swilliams password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:58:04 - EMAIL SENT - Notified swilliams at swilliams@LAB.local.
+2026-04-22 20:58:19 - EXPIRING - lbrown password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:58:19 - EMAIL SENT - Notified lbrown at lbrown@LAB.local.
+2026-04-22 20:58:34 - EXPIRING - gmarrero password expires in 27 day(s) on 5/20/2026.
+2026-04-22 20:58:34 - EMAIL SENT - Notified gmarrero at gmarrero@LAB.local.
+2026-04-22 20:58:49 - Password expiry check complete.
+2026-04-23 08:38:09 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:38:45 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:49:21 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:50:19 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:50:50 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:52:16 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:52:52 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:53:22 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:54:57 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:55:06 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:55:19 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:55:49 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:56:00 - Starting password expiry check, 5 user(s) found.
+2026-04-23 08:56:10 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:01:30 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:01:49 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:01:56 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:02:00 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:02:07 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:02:12 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:02:42 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:21:06 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:21:06 - OK - jdoe password expires in 27 day(s). No action needed.
+2026-04-23 09:21:06 - OK - mjohnson password expires in 27 day(s). No action needed.
+2026-04-23 09:21:06 - OK - swilliams password expires in 27 day(s). No action needed.
+2026-04-23 09:21:06 - OK - lbrown password expires in 27 day(s). No action needed.
+2026-04-23 09:21:06 - OK - gmarrero password expires in 27 day(s). No action needed.
+2026-04-23 09:21:06 - Password expiry check complete.
+2026-04-23 09:22:22 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:22:22 - EXPIRING - jdoe password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:22:23 - ERROR - Could not send email to jdoe. Reason: {"success":false,"errors":["'from' is required"]}
+2026-04-23 09:22:23 - EXPIRING - mjohnson password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:22:23 - ERROR - Could not send email to mjohnson. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-23 09:22:23 - EXPIRING - swilliams password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:22:23 - ERROR - Could not send email to swilliams. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-23 09:22:23 - EXPIRING - lbrown password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:22:23 - ERROR - Could not send email to lbrown. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-23 09:22:23 - EXPIRING - gmarrero password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:22:23 - ERROR - Could not send email to gmarrero. Reason: {"success":false,"errors":["Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing"]}
+2026-04-23 09:22:23 - Password expiry check complete.
+2026-04-23 09:24:02 - Starting password expiry check, 5 user(s) found.
+2026-04-23 09:24:02 - EXPIRING - jdoe password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:24:03 - EMAIL SENT - Notified jdoe at jdoe@LAB.local.
+2026-04-23 09:24:18 - EXPIRING - mjohnson password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:24:18 - EMAIL SENT - Notified mjohnson at mjohnson@LAB.local.
+2026-04-23 09:24:33 - EXPIRING - swilliams password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:24:33 - EMAIL SENT - Notified swilliams at swilliams@LAB.local.
+2026-04-23 09:24:48 - EXPIRING - lbrown password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:24:48 - EMAIL SENT - Notified lbrown at lbrown@LAB.local.
+2026-04-23 09:25:03 - EXPIRING - gmarrero password expires in 5 day(s) on 5/20/2026.
+2026-04-23 09:25:03 - EMAIL SENT - Notified gmarrero at gmarrero@LAB.local.
+2026-04-23 09:25:18 - Password expiry check complete.
