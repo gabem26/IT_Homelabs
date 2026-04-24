@@ -34,12 +34,12 @@ Both scripts use the **Mailtrap API** with `Invoke-RestMethod` and an API token 
 & "C:\Scripts\Notifications\PasswordExpiryNotifier.ps1"
 & "C:\Scripts\Notifications\AccountLockoutNotifier.ps1"
 ```
-4. Review log files for a full timestamped audit trail
+4. Review the logs for audit purposes
 
 ## Recommended Usage
 Schedule both scripts using **Windows Task Scheduler** to run automatically:
-- Password Expiry Notifier — daily at 8:00 AM
-- Locked Account Notifier — every hour
+- Password Expiry Notifier check— each business day 
+- Locked Account Notifier check — during business hours
 
 ## Requirements
 - Windows Server with Active Directory Domain Services
