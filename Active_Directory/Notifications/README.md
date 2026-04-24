@@ -27,7 +27,7 @@ Automated email alert system that monitors Active Directory for password expiry 
 | `SimulateAccLockout.ps1` | Lock user accounts for testing purposes | 
 
 ## How It Works
-Both scripts use the **Mailtrap API** with `Invoke-RestMethod` and an API token for authenticated email delivery. This approach is more reliable and modern than SMTP and does not require an existing mail server in the lab environment.
+Both scripts use the **Mailtrap API** with `Invoke-RestMethod` and an API token for authenticated email delivery. (more reliable/modern than SMTP)
 
 ## How to Use
 1. Update the configuration block at the top of each script with your API token and target addresses
