@@ -5,7 +5,7 @@ Automated email alert system that monitors Active Directory for password expiry 
 ## What It Does
 
 ### Password Expiry Notifier
-- Scans AD for users whose passwords expire within a configurable threshold (default: 30 days)
+- Scans AD for users whose passwords expire within a threshold (5 days left)
 - Sends a personalized email to each affected user with their exact expiry date
 - Logs users as EXPIRING, EXPIRED, or OK with timestamps
 - Skips accounts where password never expires or have no expiry date set
