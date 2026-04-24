@@ -20,8 +20,11 @@ Automated email alert system that monitors Active Directory for password expiry 
 |---|---|
 | `PasswordExpiryNotifier.ps1` | Scans AD and emails users approaching password expiry |
 | `AccountLockoutNotifier.ps1` | Scans AD and emails admin when accounts are locked |
-| `notifier_log.txt` | Generated log for password expiry runs |
-| `lockedaccount_log.txt` | Generated log for lockout alert runs |
+| `NotifierLog.txt` | Generated log for password expiry runs |
+| `LockedAccountLog.txt` | Generated log for lockout alert runs |
+| `SetupEmailAddresses.ps1` | Setup all email addresses for each AD user within the New Hires OU |
+| `ForcePasswordSet` | Populate a date into the PasswordLastSet property |
+| `SimulateAccLockout.ps1` | Lock user accounts for testing purposes | 
 
 ## How It Works
 Both scripts use the **Mailtrap API** with `Invoke-RestMethod` and an API token for authenticated email delivery. This approach is more reliable and modern than SMTP and does not require an existing mail server in the lab environment.
