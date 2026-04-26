@@ -21,5 +21,12 @@ Hands on practice with Active Directory, DHCP, PowerShell, and most importantly 
 |---|---|---|
 | [DHCPServerLab](./Active_Directory/DHCPServerConfig/) | Deployed and configured Windows Server 2022 DHCP in an AD environment with multiple scopes, exclusions, reservations, and client lease validation | DHCP configuration, IP addressing & subnetting, scope design, reservations & exclusions, DNS integration |
 
+## Ticketing System Troubleshooting
 
+Hands-on helpdesk simulations using Spiceworks to document, troubleshoot, resolve, and close realistic IT support tickets. These scenarios focused on real-world Tier 1/Tier 2 issues, including user communication, troubleshooting documentation, internal notes, and resolution summaries.
+
+| Project | Description | Skills Demonstrated |
+|---|---|---|
+| [DNS Connectivity Issue](./Spiceworks/) | Simulated a user workstation unable to access websites or internal web-based tools due to DNS configuration issues. Troubleshot the issue using command-line tools, corrected DNS settings, flushed DNS cache, verified connectivity, updated the user, documented internal notes, and closed the ticket after confirmation. | Spiceworks ticketing, DNS troubleshooting, `ipconfig`, `ping`, DNS cache flushing, user communication, ticket documentation, resolution verification |
+| [Shared Drive Access Issue](./Spiceworks/) | Simulated a user being unable to access a shared network drive after a recent password change. Troubleshot network share access, verified the share path, reviewed saved Windows credentials, reconnected using the current password, updated the saved credential, verified file access, and documented the resolution. | Network share troubleshooting, SMB path access, Windows Credential Manager, cached credentials, permissions awareness, user password lifecycle awareness, ticket lifecycle management |
 
