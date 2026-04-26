@@ -24,6 +24,6 @@ Hands on practice with Active Directory, DHCP, PowerShell, and most importantly 
 ### Ticketing System Troubleshooting
 | Project | Description | Skills Demonstrated |
 |---|---|---|
-| [DNS Connectivity Issue](./Spiceworks/) | Simulated a user workstation unable to access websites or "internal" web-based apps (slack and outlook) due to DNS configuration issues | Spiceworks ticketing, DNS troubleshooting, `ipconfig`, `ping`, DNS cache flushing, user communication, ticket documentation, resolution verification |
-| [Shared Drive Access Issue](./Spiceworks/) | Simulated a user being unable to access a shared network drive after a recent password change | Spiceworks, network share troubleshooting, SMB path access, Windows Credential Manager, cached credentials, user password lifecycle awareness |
+| [DNS Connectivity Issue](./SpiceWorks.pdf) | Simulated a user workstation unable to access websites or "internal" web-based apps (slack and outlook) due to DNS configuration issues | Spiceworks ticketing, DNS troubleshooting, `ipconfig`, `ping`, DNS cache flushing, user communication, ticket documentation, resolution verification |
+| [Shared Drive Access Issue](./SpiceWorks.pdf/) | Simulated a user being unable to access a shared network drive after a recent password change | Spiceworks, network share troubleshooting, SMB path access, Windows Credential Manager, cached credentials, user password lifecycle awareness |
 
